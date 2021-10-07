@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.qa.main.domain.Movies;
-import com.qa.main.service.MoviesService;
+import com.qa.main.service.MovieService;
 
 @RequestMapping("/movies")
 //localhost:9000/movies >> /delete >> /create
@@ -23,7 +23,7 @@ import com.qa.main.service.MoviesService;
 public class MovieController {
 	
 	@Autowired
-	private MoviesService service;
+	private MovieService service;
 	
 	
 	//create
