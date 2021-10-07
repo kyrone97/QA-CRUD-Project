@@ -12,6 +12,13 @@ import com.qa.main.repo.MoviesRepo;
 @Service
 public class MovieService {
 	private MoviesRepo repo;
+	
+
+
+	public MovieService(MoviesRepo repo) {
+		super();
+		this.repo = repo;
+	}
 
 
 	//create
